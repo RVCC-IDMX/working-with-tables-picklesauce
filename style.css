@@ -1,10 +1,12 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(25, 25, 25);
 }
 
 h1 {
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
+  font-size: 56px;
+  color: #FF496C;
 }
 
 .source {
@@ -14,39 +16,44 @@ h1 {
 
 .tg {
   border-collapse: collapse;
-  border-color: #9ABAD9;
+  border-color: white;
   border-spacing: 0;
   margin: 0 auto;
 }
 
 .tg td {
-  background-color: #EBF5FF;
-  border-color: #9ABAD9;
+  background-color: rgb(25, 25, 25);
+  border-color: #FF496C;
   border-style: solid;
   border-width: 2px;
-  color: #444;
+  color: white;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 28px;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
 }
 .tg th {
-  background-color: #409cff;
-  border-color: #9ABAD9;
+  background-color: rgb(25, 25, 25);
+  border-color: #FF496C;
   border-style: solid;
   border-width: 2px;
-  color: #fff;
+  color: #FF496C;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 28px;
   font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+  font-weight: bold;
 }
 
 .tg .tg-0pky {
   border-color: inherit;
   text-align: left;
   vertical-align: top;
+}
+
+.tg td, .tg th {
+  padding: 20px;
 }
