@@ -12,11 +12,20 @@ h1 {
 .source {
   text-align: right;
   caption-side: bottom;
+  color: white;
+}
+
+a {
+  color: #FF496C;
+}
+
+a:active {
+  color: #00b693;
 }
 
 .tg {
   border-collapse: collapse;
-  border-color: white;
+  border-color: #FF496C;
   border-spacing: 0;
   margin: 0 auto;
 }
